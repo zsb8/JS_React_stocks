@@ -120,8 +120,5 @@ dist
 .env.local
 .env.development.local
 .env.test.local
-<<<<<<< HEAD
 .env.production.local
-=======
-.env.production.local
->>>>>>> 8a124bf (v1)
+
