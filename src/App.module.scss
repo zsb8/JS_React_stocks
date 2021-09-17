@@ -1,0 +1,66 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  width: 60rem;
+  border: 0px solid #bdbdbd;
+}
+.empty {
+  height: 2rem;
+}
+.watchlist {
+  color: black;
+  font-weight: bold;
+  font-size: 2rem;
+}
+.red {
+  color: red;
+}
+.green {
+  color: green;
+}
+.input_section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 0px solid #bdbdbd;
+}
+.input {
+  width: 90%;
+  border: 0px solid #bdbdbd;
+}
+
+.parent {
+  display: grid;
+  width: 60rem;
+  border: 0px solid #bdbdbd;
+  grid-template-columns: 9fr 1fr;
+}
+.child {
+  border: 0px solid #bdbdbd;
+}
+.parentContent {
+  display: grid;
+  border: 1px solid #bdbdbd;
+  border-radius: 0.5rem;
+  grid-template-columns: 7fr 3fr;
+  padding: 0.5rem;
+}
+.childContentSymbol {
+  text-align: left;
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.childContentPriceC {
+  text-align: right;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+.childContentPriceD {
+  text-align: right;
+  font-weight: 300;
+}
+#a {
+  grid-row-end: span 2;
+}
