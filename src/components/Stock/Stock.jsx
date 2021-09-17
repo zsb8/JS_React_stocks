@@ -9,7 +9,8 @@ const Stock = ({
   setStocks,
 }) => {
   const deleteSymbol = () => {
-    const newStoks = stocks.filter(function (value) {
+    // 这里借助.filter来实现从列表里清除指定的股票
+    const newStoks = stocks.filter(function (value, index, array) {
       return value.symbol !== symbol;
     });
     setStocks(newStoks);
