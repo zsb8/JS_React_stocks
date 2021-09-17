@@ -2,7 +2,7 @@ import { useState } from "react";
 const StockInput = ({ onAdd }) => {
   const [text, setText] = useState("");
   const handleAddStock = () => {
-    onAdd(text); //这里别忘记加上text
+    onAdd(text);
   };
   return (
     <div>
